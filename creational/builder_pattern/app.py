@@ -6,7 +6,7 @@ class Person:
         self.email = email
 
     def __str__(self):
-        return f"Name: {self.name}, Age: {self.age}, Address: {self.address}, Email: {self.email}"
+        return f"Name: {self.name}, Age: {self.age}, Address: {self.address}"
 
 
 class PersonBuilder:
